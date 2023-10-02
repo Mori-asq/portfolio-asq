@@ -45,29 +45,29 @@ const aboutData = [
       {
         title: "Front-End",
         icons: [
-          <FaHtml5 className="text-orange-500" />,
-          <FaCss3 className="text-[#007bff]" />,
-          <FaSass className="text-pink-500" />,
-          <FaBootstrap className="text-purple-500" />,
-          <SiTailwindcss className="text-[#00aaff]" />,
-          <FaJs className="text-yellow-300" />,
-          <SiTypescript className="text-[#007bff]" />,
-          <FaReact className="text-[#00aaff]" />,
-          <SiNextdotjs className="text-white bg-black rounded-[50%]" />,
-          <FaGitAlt className="text-orange-400" />,
+          <FaHtml5 className="text-orange-500" key={"html"}/>,
+          <FaCss3 className="text-[#007bff]" key={"css"}/>,
+          <FaSass className="text-pink-500" key={"sass"}/>,
+          <FaBootstrap className="text-purple-500" key={"bootstrap"}/>,
+          <SiTailwindcss className="text-[#00aaff]" key={"tailwind"}/>,
+          <FaJs className="text-yellow-300" key={"js"}/>,
+          <SiTypescript className="text-[#007bff]" key={"ts"}/>,
+          <FaReact className="text-[#00aaff]" key={"react"}/>,
+          <SiNextdotjs className="text-white bg-black rounded-[50%]" key={"nextjs"}/>,
+          <FaGitAlt className="text-orange-400" key={"git"}/>,
         ],
       },
       {
         title: "Back-End",
-        icons: [<SiCsharp className="text-purple-700 bg-white rounded-full" />, <SiDotnet className="text-purple-600" />, <SiMicrosoftsqlserver />, <SiMysql />, <SiMongodb className="text-green-700" />, <SiNodedotjs className="text-green-400"/>, <SiExpress />],
+        icons: [<SiCsharp className="text-purple-700 bg-white rounded-full" key={"csharp"}/>, <SiDotnet className="text-purple-600" key={"dotnet"}/>, <SiMicrosoftsqlserver key={"sql"}/>, <SiMysql key={"mysql"}/>, <SiMongodb className="text-green-700" key={"mongodb"}/>, <SiNodedotjs className="text-green-400" key={"nodejs"}/>, <SiExpress key={"expressjs"}/>],
       },
       {
         title: "UI/UX Design",
-        icons: [<FaFigma className="text-pink-500" />, <SiAdobexd className="text-pink-500" />, <SiAdobephotoshop className="text-[#00aaff]"/>],
+        icons: [<FaFigma className="text-pink-500" key={"figma"} />, <SiAdobexd className="text-pink-500" key={"xd"}/>, <SiAdobephotoshop className="text-[#00aaff]" key={"ps"}/>],
       },
       {
         title: "Operating System",
-        icons: [<SiLinux  />, <SiWindows  />],
+        icons: [<SiLinux  key={"linux"}/>, <SiWindows key={"windows"} />],
       },
     ],
   },
@@ -148,8 +148,8 @@ const About = () => {
             exit="hidden"
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            2 Years age, I began learning Web Design. Since then, I've done many
-            projects for myself as hobby, Which you'll see in this website.
+            2 Years age, I began learning Web Design. Since then, I&lsquo;ve done many
+            projects for myself as hobby, Which you&lsquo;ll see in this website.
           </motion.p>
           <motion.div
             variants={fadeIn("right", 0.6)}
