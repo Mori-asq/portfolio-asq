@@ -3,4 +3,4 @@ I also use Javascript as it's programming language and tailwindcss for styling t
 The icons of this project is available on react-icons.
 Hope you like it!
 ![HomePage](./public/Home.png)
-![HomePage](./public/About.png.png)
+![HomePage](./public/About.png)
