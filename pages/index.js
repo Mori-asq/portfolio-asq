@@ -14,7 +14,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h1"
+            className="h1 z-50"
           >
             Transforing Ideas <br /> Into {` `}
             <span className="text-accent">Digital Reality</span>
@@ -24,7 +24,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
+            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16 z-50"
           >
             <p>
               {" "}
@@ -48,7 +48,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="hidden xl:flex xl:mb-8"
+            className="hidden xl:flex xl:mb-8 z-50"
           >
             <ProjectsBtn />
           </motion.div>
